@@ -28,3 +28,4 @@ def calcularArea(largura , comprimento):
 imprimirAreaDoCirculo(4)
 
 print( "Área total: " , calcularArea( "3", 3.5) )
+
