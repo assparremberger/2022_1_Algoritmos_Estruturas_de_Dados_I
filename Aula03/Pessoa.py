@@ -8,6 +8,11 @@ class Pessoa:
 
 
 
+
+
+
+
+
 print("--------")
 p1 = Pessoa()
 print("O nome da pessoa é: ", p1.nome)
