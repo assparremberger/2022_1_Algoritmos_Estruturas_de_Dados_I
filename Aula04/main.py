@@ -1,3 +1,4 @@
+# 28/03/2022
 from Cidade import Cidade
 from Pessoa import Pessoa
 
@@ -23,3 +24,21 @@ print("---------------------")
 p3 = Pessoa("Daniel", "48 22337788", "Av. A", 7500.0, c2)
 p3.cadastrar()
 
+
+
+# 04/04/2022
+from Categoria import Categoria
+from Produto import Produto
+
+print("\n-------------04/04/2022 ----\n")
+
+c1 = Categoria( 2 , "Bebidas")
+p1 = Produto( 1, "Coca-Cola 2L", 7.99 , 50, c1)
+p1.cadastrar()
+
+
+p2 = Produto()
+
+p2.setCategoria()
+
+p2.cadastrar()
