@@ -42,3 +42,6 @@ p2 = Produto()
 p2.setCategoria()
 
 p2.cadastrar()
+
+c2 = Categoria()
+c3 = Categoria()
